@@ -1,0 +1,54 @@
+.input-box {
+    position: relative;
+    height: 39px;
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    margin: 0 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 2px;
+ 
+  }
+  .input-box i,
+  .input-box .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .input-box i {
+    right: 20px;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+  }
+  .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 7px 60px 9px 15px;
+    background-color: transparent;
+  }
+
+
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .input-box {
+
+        margin: 0 8px;
+        box-sizing: border-box;
+    }
+    .input-box i {
+      right: 12px;
+      font-size: 25px;
+    }
+    .input-box i {
+      color: blue;
+      cursor: pointer;
+      right: 20px;
+  }
+}
